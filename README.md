@@ -28,3 +28,11 @@ Option                   Environment var          Default
 -create_date             -                        1
 	Adjust DateTimeOrginal
 ```
+
+## Building Docker image
+
+If you don't want to install various Perl deps on your system, build a Docker image instead.
+
+```
+docker build -t photo_prism_yaml_to_exif:latest .
+```
